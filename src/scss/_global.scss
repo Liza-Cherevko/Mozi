@@ -1,0 +1,71 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+// Container
+.container {
+    max-width: ($containerWidth + $containerPadding) + px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 $containerSidePadding+px;
+
+
+    @media (max-width: $breakpoint992) {
+        max-width: 970px;
+    }
+
+    @media (max-width: $breakpoint768) {
+        max-width: 750px;
+    }
+
+    @media (max-width: $breakpoint480) {
+        max-width: none;
+    }
+}
+
+// Body Locked
+body {
+ 
+
+    &.locked {
+        overflow: hidden;
+    }
+}
+
+// Animations
+// Fade
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+.first-screen-wrap{
+    height: 80vh;
+    background: linear-gradient(252.91deg, #E3E7F6 3.68%, rgba(227, 231, 246, 0) 97.82%);
+}
+.btn{
+    background: $secondary;
+    padding: 14px 32px;
+    border-radius: 6px;
+    color: $white;
+    &:hover{
+        background: rgb(153, 45, 45);
+    }
+    
+}
+.btn-2{
+   background: transparent;
+    color: $secondary;
+    padding: 14px 32px;
+    border-radius: 6px;
+    border: 1px solid $secondary;
+    &:hover{
+        background: rgb(153, 45, 45);
+        color: $white;
+    }
+    
+}
