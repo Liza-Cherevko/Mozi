@@ -1,0 +1,101 @@
+.sec-work{
+    position: relative;
+    padding: 172px 0 0 0;
+    &__wrap{
+        display: flex;
+        justify-content: space-between;
+        gap: 106px;
+    }
+    &__content{
+        align-self: center;
+      
+    }
+ &__title{
+        color: $primaryDark;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 62px;
+        width: 466px;
+        }
+        &__subtitle{
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 33px;
+            color: $color-txt;
+            width: 444px;
+            padding-top: 32px;
+            padding-bottom:40px ;
+        }
+    &__btn{
+        display: flex;
+        gap: 20px;
+    }
+    &__img{
+       
+    }
+}
+.cookies{
+    margin-top: 101px;
+ &__wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 111px;
+  
+ } 
+&__blocks{
+    display: flex;
+    justify-content: space-between;
+}
+&__content{
+    width: 416px;
+    align-self: center;
+    img{
+        padding-bottom: 40px;
+    }
+    p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27px;
+        color: $color-txt;
+        &:last-child{
+            padding-top: 20px;
+        }
+    }
+}
+
+&__img{
+    width: 564px;
+    height: 558px;
+}
+}
+.build{
+    margin-top: 52px;
+    padding: 137px 0;
+    background: linear-gradient(342.12deg, #E3E7F6 -6.53%, rgba(227, 231, 246, 0) 87.81%);
+    &__txt{
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+       text-align: center;
+       
+       h2{
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 62px;
+        color: $primaryDark;
+        padding-bottom: 20px;
+        width: 658px;
+       }
+       p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27px;
+        color: $color-txt;
+       }
+    }
+    &__button{
+        padding-top: 40px;
+        display: flex;
+        gap: 30px ;
+    }
+}

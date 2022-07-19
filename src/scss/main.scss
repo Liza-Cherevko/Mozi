@@ -169,6 +169,7 @@ nav {
 .sec-1{
     position: relative;
     margin-top: 90px;
+    padding: 129px 0 0px 0;
     &__wrap{
         display: flex;
         justify-content: space-between;
@@ -176,13 +177,14 @@ nav {
     &__content{
         align-self: start;
         max-width: 570px;
-        h2{
+    }
+    &__title{
         color: $primaryDark;
         font-weight: 700;
         font-size: 48px;
         line-height: 62px;
         }
-        p{
+        &__sub-title{
             font-weight: 400;
             font-size: 22px;
             line-height: 33px;
@@ -191,17 +193,13 @@ nav {
             padding-top: 32px;
             padding-bottom:40px ;
         }
-    }
     &__btn{
         display: flex;
         gap: 20px;
     }
     &__img{
         img{
-            position: absolute;
-        bottom: 0;
-        right: 0;
-        top: -68px;
+          
         }
     }
 }
