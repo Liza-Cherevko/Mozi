@@ -7,285 +7,293 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>New Project</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./scss/style.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 
 <body class="main__body">
 
-<div class="first-screen-wrap">
-        <!-- Header  -->
-    <header>
-        <!-- Navbar  -->
-        <nav>
+    <div class="first-screen-wrap">
+
+        <header class="header">
             <div class="container">
-                <div class="navbar">
-                    <div class="logo"> <a href="#"> <img src="./img/logo.png" alt="logo"> </a> </div>
-                    <ul class="menu">
-                        <li class="menu__item"><a href="./html/product.html" class="menu__item-link" data-scroll>Products</a></li>
-                        <li class="menu__item"><a href="./html/about.html" class="menu__item-link" data-scroll>About us</a></li>
-                        <li class="menu__item"><a href="./html/contact.html" class="menu__item-link" data-scroll>Contact</a></li>
-                        <li class="menu__item"><a href="#" class="menu__item-link btn" data-scroll>We're hiring</a></li>
-                    </ul>
-                    <div class="burger">
-                        <span></span>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header> 
+                <div class="header__menu">
+                    <div class="header__logo"> <a href="#"> <img src="./img/logo.png" alt="logo"> </a> </div>
 
-<section class="sec-1">
-    <div class="container">
-      <div class="sec-1__wrap">
-        <div class="sec-1__content">
-            <div class="sec-1__txt">
-                <h2 class="sec-1__title">We build products to simplify work for businesses</h2>
-             <p class="sec-1__sub-title">Our next-gen products empower businesses to implement agility and accelerate growth. </p> 
-            </div>
-               <div class="sec-1__btn">
-                <button class="btn">Learn more </button>
-                <button class="btn-2">Work with us </button>
-               </div>
-            </div>
-          <div class="sec-1__img">
-            <img src="./img/firs-screen-img.png" alt="">
-          </div>
-        </div>
-     </div>
-</section>
-</div>
-
-<section class="sec-2">
-    <div class="container">
-        <h2> Over <span>1.3 million</span> users and global brands trust us  </h2>
-        <div class="sec-2__wrap">
-            <div class="sec-2__img">
-                <img src="./img/sec-2(1).png" alt="">
-            </div>
-            <div class="sec-2__img">
-                <img src="./img/sec-2(2).png" alt="">
-            </div>
-            <div class="sec-2__img">
-                <img src="./img/sec-2(3).png" alt="">
-            </div>
-            <div class="sec-2__img">
-                <img src="./img/sec-2(4).png" alt="">
-            </div>
-            <div class="sec-2__img">
-                <img src="./img/sec-2(5).png" alt="">
-            </div>
-            <div class="sec-2__img">
-                <img src="./img/sec-2(6).png" alt="">
-            </div>
-        </div>
-    </div>
-
-</section>
-
-<section class="sec-3">
-    <div class="container">
-        <div class="sec-3__txt">
-            <h2>Our line of products</h2>
-            <p>Here’s what we’re building to help businesses deliver amazing customer experiences.</p>
-        </div>
-        <div class="sec-3__wrap">
-            <div class="sec-3__block">
-                <div class="content">
-                    <div class="title">
-                        <img src="./img/title-1.svg" alt="title-1">
-                    </div>
-                    <p>Cookie consent solution for privacy compliance.</p>
-                    <button class="btn-2"><img src="./img/Arrow.png" alt="Arrow"> Learn more</button>
-                </div>
-               
-                    <img class="sec-3__img" src="./img/content-1.png" alt="">
-              
-            </div>
-            <div class="sec-3__block">
-                <div class="content">
-                    <div class="title">
-                        <img src="./img/title-2.svg" alt="title-1">
-                    </div>
-                    <p>Plugins and extensions for eCommerce needs.</p>
-                    <button class="btn-2"><img src="./img/Arrow.png" alt="Arrow"> Learn more</button>
-                </div>
-               
-                    <img class="sec-3__img-2" src="./img/content-2.png" alt="">
+                    <nav>
+                        <div class="header__navbar">
+                            <ul class="menu">
+                                <li class="menu__item"><a href="./html/product.html" class="menu__item-link" data-scroll="">Products</a></li>
+                                <li class="menu__item"><a href="./html/about.html" class="menu__item-link" data-scroll="">About us</a></li>
+                                <li class="menu__item"><a href="./html/contact.html" class="menu__item-link" data-scroll="">Contact</a></li>
+                                <li class="menu__item"><a href="#" class="menu__hiring-btn btn btn--red" data-scroll="">We're hiring</a></li>
+                            </ul>
+                            <div class="burger">
+                                <span></span>
+                            </div>
+                        </div>
+                </nav></div>
                 
             </div>
-        </div>
-    </div>
-</section>
-
-
-<section class="sec-4">
-    <div class="container">
-        <div class="sec-4__wrap">
-            <div class="sec-4__content">
-                <h2>Creators of award-winning products</h2>
-                <p>Our products are loved by customers and recommended by leading industry experts.</p>
+        </header>
+        <section class="sec-1">
+            <div class="container">
+                <div class="sec-1__wrap">
+                    <div class="sec-1__content">
+                        <div class="sec-1__txt">
+                            <h2 class="sec-1__title">We build products to simplify work for businesses</h2>
+                            <p class="sec-1__sub-title">Our next-gen products empower businesses to implement agility
+                                and accelerate growth. </p>
+                        </div>
+                        <div class="sec-1__btn">
+                            <button class="btn">Learn more </button>
+                            <button class="btn-2">Work with us </button>
+                        </div>
+                    </div>
+                    <div class="sec-1__img">
+                        <img src="./img/firs-screen-img.png" alt="">
+                    </div>
+                </div>
             </div>
-            <div class="sec-4__img">
-                <img src="./img/sec-4.png" alt="">
-            </div>
-        </div>
-    </div>
-</section>
+        </section>
 
-<section class="sec-5">
-    <div class="container">
-     <div class="sec-5__txt">
-        <h2>Making waves with innovation</h2>
-        <p>We are in the news for being market leaders who deliver exceptional products.</p>
-     </div>
-     <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide cards">
-            <img src="./img/slide-1.png" alt="slide-1">
-          </div>
-          <div class="swiper-slide cards">
-            <img src="./img/slide-2.png" alt="slide-2">
-          </div>
-          <div class="swiper-slide cards">
-            <img src="./img/slide-3.png" alt="slide-3">
-          </div>
-          <div class="swiper-slide cards">
-            <img src="./img/slide-4.png" alt="slide-4">
-          </div>
-          <div class="swiper-slide cards">
-            <img src="./img/slide-1.png" alt="slide-1">
-          </div>
-          <div class="swiper-slide cards">
-            <img src="./img/slide-2.png" alt="slide-2">
-          </div>
-          <div class="swiper-slide cards">
-            <img src="./img/slide-3.png" alt="slide-3">
-          </div>
-          <div class="swiper-slide cards">
-            <img src="./img/slide-4.png" alt="slide-4">
-          </div>
-          <div class="swiper-slide cards">
-            <img src="./img/slide-1.png" alt="slide-1">
-          </div>
-          <div class="swiper-slide cards">
-            <img src="./img/slide-2.png" alt="slide-2">
-          </div>
-          <div class="swiper-slide cards">
-            <img src="./img/slide-3.png" alt="slide-3">
-          </div>
-          <div class="swiper-slide cards">
-            <img src="./img/slide-4.png" alt="slide-4">
-          </div>
     </div>
-   <div class="buttons">
-    <button class="swiper-prev sw-btn"> 
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.2947 19.2947C11.6842 19.6842 12.3158 19.6842 12.7053 19.2947C13.0946 18.9054 13.0949 18.2743 12.7059 17.8847L7.83 13L19 13C19.5523 13 20 12.5523 20 12C20 11.4477 19.5523 11 19 11L7.83 11L12.7059 6.11532C13.0949 5.72568 13.0946 5.0946 12.7053 4.70532C12.3158 4.31578 11.6842 4.31578 11.2947 4.70532L4 12L11.2947 19.2947Z" fill="black" fill-opacity="0.7"/>
-            <mask id="mask0_1_258198" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="4" y="4" width="16" height="16">
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.2947 19.2947C11.6842 19.6842 12.3158 19.6842 12.7053 19.2947C13.0946 18.9054 13.0949 18.2743 12.7059 17.8847L7.83 13L19 13C19.5523 13 20 12.5523 20 12C20 11.4477 19.5523 11 19 11L7.83 11L12.7059 6.11532C13.0949 5.72568 13.0946 5.0946 12.7053 4.70532C12.3158 4.31578 11.6842 4.31578 11.2947 4.70532L4 12L11.2947 19.2947Z" fill="white"/>
-            </mask>
-            <g mask="url(#mask0_1_258198)">
-            <rect x="24" y="24" width="24" height="24" transform="rotate(180 24 24)" fill="#C2D1D9"/>
-            </g>
-            </svg>
-            
-          
-    </button>
-    <button class="swiper-next sw-btn ">
-        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.70531 15.2947C8.31578 15.6842 7.68422 15.6842 7.29468 15.2947C6.9054 14.9054 6.90511 14.2743 7.29405 13.8847L12.17 9L0.999998 9C0.447714 9 -6.511e-07 8.55228 -6.99382e-07 8C-7.47665e-07 7.44771 0.447714 7 0.999999 7L12.17 7L7.29405 2.11531C6.90511 1.72568 6.90539 1.0946 7.29468 0.705315C7.68422 0.31578 8.31578 0.31578 8.70531 0.705315L16 8L8.70531 15.2947Z" fill="#C2D1D9"/>
-            </svg>   
-    </button>
-   </div>
-</section>
 
-<section class="sec-6">
-    <div class="container">
-        <div class="sec-6__wrap">
-            <div class="sec-6__content">
-                <h2>Let's build the next big thing!</h2>
-                <p>Looking to achieve great things? You’ve come to the right place.</p>
-            
-             <button class="btn-2">Join the team</button>
-            </div>
-            <div class="sec-6__img">
-                <img src="./img/sec-6.png" alt="sec-6">
+    <section class="sec-2">
+        <div class="container">
+            <h2> Over <span>1.3 million</span> users and global brands trust us </h2>
+            <div class="sec-2__wrap">
+                <div class="sec-2__img">
+                    <img src="./img/sec-2(1).png" alt="">
+                </div>
+                <div class="sec-2__img">
+                    <img src="./img/sec-2(2).png" alt="">
+                </div>
+                <div class="sec-2__img">
+                    <img src="./img/sec-2(3).png" alt="">
+                </div>
+                <div class="sec-2__img">
+                    <img src="./img/sec-2(4).png" alt="">
+                </div>
+                <div class="sec-2__img">
+                    <img src="./img/sec-2(5).png" alt="">
+                </div>
+                <div class="sec-2__img">
+                    <img src="./img/sec-2(6).png" alt="">
+                </div>
             </div>
         </div>
-    </div>
-</section>
+
+    </section>
+
+    <section class="sec-3">
+        <div class="container">
+            <div class="sec-3__txt">
+                <h2>Our line of products</h2>
+                <p>Here’s what we’re building to help businesses deliver amazing customer experiences.</p>
+            </div>
+            <div class="sec-3__wrap">
+                <div class="sec-3__block">
+                    <div class="content">
+                        <div class="title">
+                            <img src="./img/title-1.svg" alt="title-1">
+                        </div>
+                        <p>Cookie consent solution for privacy compliance.</p>
+                        <button class="btn-2"><img src="./img/Arrow.png" alt="Arrow"> Learn more</button>
+                    </div>
+
+                    <img class="sec-3__img" src="./img/content-1.png" alt="">
+
+                </div>
+                <div class="sec-3__block">
+                    <div class="content">
+                        <div class="title">
+                            <img src="./img/title-2.svg" alt="title-1">
+                        </div>
+                        <p>Plugins and extensions for eCommerce needs.</p>
+                        <button class="btn-2"><img src="./img/Arrow.png" alt="Arrow"> Learn more</button>
+                    </div>
+
+                    <img class="sec-3__img-2" src="./img/content-2.png" alt="">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-4">
+        <div class="container">
+            <div class="sec-4__wrap">
+                <div class="sec-4__content">
+                    <h2>Creators of award-winning products</h2>
+                    <p>Our products are loved by customers and recommended by leading industry experts.</p>
+                </div>
+                <div class="sec-4__img">
+                    <img src="./img/sec-4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-5">
+        <div class="container">
+            <div class="sec-5__txt">
+                <h2>Making waves with innovation</h2>
+                <p>We are in the news for being market leaders who deliver exceptional products.</p>
+            </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide cards">
+                        <img src="./img/slide-1.png" alt="slide-1">
+                    </div>
+                    <div class="swiper-slide cards">
+                        <img src="./img/slide-2.png" alt="slide-2">
+                    </div>
+                    <div class="swiper-slide cards">
+                        <img src="./img/slide-3.png" alt="slide-3">
+                    </div>
+                    <div class="swiper-slide cards">
+                        <img src="./img/slide-4.png" alt="slide-4">
+                    </div>
+                    <div class="swiper-slide cards">
+                        <img src="./img/slide-1.png" alt="slide-1">
+                    </div>
+                    <div class="swiper-slide cards">
+                        <img src="./img/slide-2.png" alt="slide-2">
+                    </div>
+                    <div class="swiper-slide cards">
+                        <img src="./img/slide-3.png" alt="slide-3">
+                    </div>
+                    <div class="swiper-slide cards">
+                        <img src="./img/slide-4.png" alt="slide-4">
+                    </div>
+                    <div class="swiper-slide cards">
+                        <img src="./img/slide-1.png" alt="slide-1">
+                    </div>
+                    <div class="swiper-slide cards">
+                        <img src="./img/slide-2.png" alt="slide-2">
+                    </div>
+                    <div class="swiper-slide cards">
+                        <img src="./img/slide-3.png" alt="slide-3">
+                    </div>
+                    <div class="swiper-slide cards">
+                        <img src="./img/slide-4.png" alt="slide-4">
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="swiper-prev sw-btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M11.2947 19.2947C11.6842 19.6842 12.3158 19.6842 12.7053 19.2947C13.0946 18.9054 13.0949 18.2743 12.7059 17.8847L7.83 13L19 13C19.5523 13 20 12.5523 20 12C20 11.4477 19.5523 11 19 11L7.83 11L12.7059 6.11532C13.0949 5.72568 13.0946 5.0946 12.7053 4.70532C12.3158 4.31578 11.6842 4.31578 11.2947 4.70532L4 12L11.2947 19.2947Z"
+                                fill="black" fill-opacity="0.7" />
+                            <mask id="mask0_1_258198" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="4" y="4"
+                                width="16" height="16">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M11.2947 19.2947C11.6842 19.6842 12.3158 19.6842 12.7053 19.2947C13.0946 18.9054 13.0949 18.2743 12.7059 17.8847L7.83 13L19 13C19.5523 13 20 12.5523 20 12C20 11.4477 19.5523 11 19 11L7.83 11L12.7059 6.11532C13.0949 5.72568 13.0946 5.0946 12.7053 4.70532C12.3158 4.31578 11.6842 4.31578 11.2947 4.70532L4 12L11.2947 19.2947Z"
+                                    fill="white" />
+                            </mask>
+                            <g mask="url(#mask0_1_258198)">
+                                <rect x="24" y="24" width="24" height="24" transform="rotate(180 24 24)"
+                                    fill="#C2D1D9" />
+                            </g>
+                        </svg>
+                    </button>
+                    <button class="swiper-next sw-btn ">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M8.70531 15.2947C8.31578 15.6842 7.68422 15.6842 7.29468 15.2947C6.9054 14.9054 6.90511 14.2743 7.29405 13.8847L12.17 9L0.999998 9C0.447714 9 -6.511e-07 8.55228 -6.99382e-07 8C-7.47665e-07 7.44771 0.447714 7 0.999999 7L12.17 7L7.29405 2.11531C6.90511 1.72568 6.90539 1.0946 7.29468 0.705315C7.68422 0.31578 8.31578 0.31578 8.70531 0.705315L16 8L8.70531 15.2947Z"
+                                fill="#C2D1D9" />
+                        </svg>
+                    </button>
+                </div>
+    </section>
+
+    <section class="sec-6">
+        <div class="container">
+            <div class="sec-6__wrap">
+                <div class="sec-6__content">
+                    <h2>Let's build the next big thing!</h2>
+                    <p>Looking to achieve great things? You’ve come to the right place.</p>
+
+                    <button class="btn-2">Join the team</button>
+                </div>
+                <div class="sec-6__img">
+                    <img src="./img/sec-6.png" alt="sec-6">
+                </div>
+            </div>
+        </div>
+    </section>
 
     <main>
     </main>
 
     <!-- Footer -->
-<footer class="footer">
- <div class="container">
-    <div class="footer__wrap">
-        <div class="footer__logo">
-            <img src="./img/footer-logo.png" alt="logo">
-            <p>Mozil builds extensions, plugins and apps to simplify work for businesses. </p>
-        </div>
-        <ul >
-            <li>
-                <a href="#"> Products</a>
-            </li>
-            <li>
-                <a href="#"> CookieYes</a>
-            </li>
-            <li>
-                <a href="#"> Webtoffee</a>
-            </li>
-            <li>
-                <a href="#"> About</a>
-            </li>
-            <li>
-                <a href="#">Career</a>
-            </li>
-            <li>
-                <a href="#">Contact</a>
-            </li>
-            <li>
-                <a href="#">Follow us</a>
-            </li>
-            <li>
-              <div class="social">
-                <a href="#" class="social-link">
-                    <img src="./img/facebook.png" alt="facebook">
-                </a>
-                <a href="#" class="social-link">
-                    <img src="./img/twit.png" alt="twit">
-                </a>
-                <a href="#" class="social-link">
-                    <img src="./img/inst.png" alt="inst">
-                </a>
-                <a href="#" class="social-link">
-                    <img src="./img/in.png" alt="in">
-                </a>
-              </div> 
-            </li>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrap">
+                <div class="footer__logo">
+                    <img src="./img/footer-logo.png" alt="logo">
+                    <p>Mozil builds extensions, plugins and apps to simplify work for businesses. </p>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#"> Products</a>
+                    </li>
+                    <li>
+                        <a href="#"> CookieYes</a>
+                    </li>
+                    <li>
+                        <a href="#"> Webtoffee</a>
+                    </li>
+                    <li>
+                        <a href="#"> About</a>
+                    </li>
+                    <li>
+                        <a href="#">Career</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#">Follow us</a>
+                    </li>
+                    <li>
+                        <div class="social">
+                            <a href="#" class="social-link">
+                                <img src="./img/facebook.png" alt="facebook">
+                            </a>
+                            <a href="#" class="social-link">
+                                <img src="./img/twit.png" alt="twit">
+                            </a>
+                            <a href="#" class="social-link">
+                                <img src="./img/inst.png" alt="inst">
+                            </a>
+                            <a href="#" class="social-link">
+                                <img src="./img/in.png" alt="in">
+                            </a>
+                        </div>
+                    </li>
 
-            
-        </ul>
-    </div>
- </div>
-<div class="footer__links">
-    <div class="container">
-    <div class="link-wrap">
-        <div>
-            <p>© 2022 Mozi - All right reserved      </p>
-        </div>
-        <div>
-            <p>Terms & Conditions</p>
-        </div>
-    </div>
-    </div>
-</div>
 
-</footer>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__links">
+            <div class="container">
+                <div class="link-wrap">
+                    <div>
+                        <p>© 2022 Mozi - All right reserved </p>
+                    </div>
+                    <div>
+                        <p>Terms & Conditions</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
 
 </body>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
