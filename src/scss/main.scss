@@ -1,5 +1,6 @@
 
 .header {
+    background: linear-gradient(252.91deg, #E3E7F6 3.68%, rgba(227, 231, 246, 0) 97.82%);
     &__menu{
         display: flex;
         justify-content: space-between;
@@ -41,55 +42,31 @@
 
 }
 
-
-
-
-
-
-
-.sec-1{
-    position: relative;
-    margin-top: 90px;
-    padding: 129px 0 0px 0;
-    &__wrap{
-        display: flex;
-        justify-content: space-between;
+.sec-1 {
+    padding: 250px 0 250px 0 ;
+    background-image: url(../img/firs-screen-img.png), linear-gradient(252.91deg, #E3E7F6 3.68%, rgba(227, 231, 246, 0) 97.82%);
+    background-position: right 8% bottom;
+    background-repeat: no-repeat;
+   
+    &__content {
+        width: 570px;
     }
-    &__content{
-        align-self: start;
-        max-width: 570px;
+    &__sub{
+        width: 512px;
     }
-    &__title{
-        color: $primaryDark;
-        font-weight: 700;
-        font-size: 48px;
-        line-height: 62px;
-        }
-        &__sub-title{
-            font-weight: 400;
-            font-size: 22px;
-            line-height: 33px;
-            color: $color-txt;
-            width: 520px;
-            padding-top: 32px;
-            padding-bottom:40px ;
-        }
-    &__btn{
-        display: flex;
-        gap: 20px;
-    }
-    &__img{
-        img{
-          
-        }
+
+
+    &__btn {
+        padding-top: 40px;
     }
 }
+
 .sec-2{
  margin-top: 90px;
  padding-bottom: 130px;
  border-bottom: 1px solid rgba(197, 203, 226, 0.5);
  
- h2{
+&__title{
     text-align: center;
     font-weight: 700;
     font-size: 36px;
@@ -101,28 +78,15 @@
  }
  &__wrap{
     margin-top: 80px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  
  }
 }
 .sec-3{
     margin-top: 106px;
-    &__txt{
+   
+    &__content{
         text-align: center;
-        h2{
-            font-weight: 700;
-            font-size: 44px;
-            line-height: 57px;
-            color: $primaryDark;
-        }
-        p{
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 27px;
-            color: $color-txt;
-            padding-top: 16px;
-        }
+        
     }
     &__wrap{
         margin-top: 97px;
@@ -137,21 +101,23 @@
         border-radius: 8px;
         width: 538px;
         height: 530px;
-    
-        .content{
-          padding-top: 65px ;
-          padding-left: 65px;
-            .title{
+    }
+        &__block-content{
+            text-align: left;
+            padding-top: 65px;
+            padding-left: 65px;
+        }
+        &__title{
                 padding-bottom: 44px;
             }
-            p{
+         &__subtitle{
                 font-weight: 400;
                 font-size: 24px;
                 line-height: 31px; 
                 color: #3A3A3C;
                 padding-bottom: 32px;
             }
-        }
+       
         button{
             position: relative;
             img{
@@ -159,7 +125,10 @@
                 left: 10px;
             }
         }
-    }
+   &__img-block{
+    width: 100%;
+    height: 260px;
+   }
     &__img{
        padding-right: 20px ;
        padding-left: 10px;
@@ -171,29 +140,16 @@
 }
 .sec-4{
     margin-top: 108px;
-    background: linear-gradient(268.52deg, #E3E7F6 -52.27%, rgba(227, 231, 246, 0) 138.23%);
+    padding: 256px 0 260px 0;
 
-&__wrap{
-    padding-top: 73px;
-    display: flex;
-    justify-content: space-between;
-}
+   background-image: url(../img/sec-4.png), linear-gradient(268.52deg, #E3E7F6 -52.27%, rgba(227, 231, 246, 0) 138.23%);
+    background-position: right 20% center;
+    background-repeat: no-repeat;
+
 &__content{
     width: 416px;
     align-self: center;
-    h2{
-        font-weight: 700;
-        font-size: 44px;
-        line-height: 57px;
-        color: $primaryDark;
-        padding-bottom: 16px;
-    }
-    p{
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 27px;
-        color: $color-txt;
-    }
+   
 }
 
 &__img{
@@ -206,19 +162,10 @@ height: 558px;
         padding-top: 120px;
         text-align: center;
         padding-bottom: 125px;
-        h2{
-            font-weight: 700;
-            font-size: 44px;
-            line-height: 57px;
-            color: $primaryDark;
-            padding-bottom: 16px;
-        }
-        p{
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 27px;
-            color: $color-txt;
-        }
+   
+    }
+    &__cards{
+        text-align: center;
     }
  .buttons{
     display: flex;
@@ -235,38 +182,21 @@ height: 558px;
     }
  }
 }
-
 .sec-6{
     margin-top: 108px;
-    background: linear-gradient(335.73deg, #E3E7F6 12.46%, rgba(227, 231, 246, 0) 84.19%);
-&__wrap{
-    padding-top: 73px;
-    display: flex;
-    justify-content: space-between;
-}
+    padding: 256px 0 260px 0;
+
+   background-image: url(../img/sec-6.png), linear-gradient(268.52deg, #E3E7F6 -52.27%, rgba(227, 231, 246, 0) 138.23%);
+    background-position: right 20% center;
+    background-repeat: no-repeat;
+
 &__content{
     width: 343px;
     align-self: center;
-    h2{
-        font-weight: 700;
-        font-size: 44px;
-        line-height: 57px;
-        color: $primaryDark;
-        padding-bottom: 16px;
-    }
-    p{
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 27px;
-        color: $color-txt;
-     margin-bottom: 20px;
-    }
+
 }
 
-&__img{
-    width: 559px;
-height: 558px;
-}
+
 }
 .footer{
     background: #0D123C;
@@ -276,54 +206,65 @@ height: 558px;
         display: flex;
         justify-content: space-between;
     }
-    &__logo{
-        p{
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 27px; 
-            color: $white;
-            width: 287px;
-            padding-top: 29px;
-        }
+    &__under-txt{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27px; 
+        color: $white;
+        width: 287px;
+        padding-top: 29px;
     }
 
-
-        ul{
-            -webkit-column-count: 3; 
-            column-count: 3;
-            column-gap:100px ;
-           li{
+&__right{
+    display: flex;
+    gap: 100px;
+}
+     &__list{
+            -webkit-column-count: 2; 
+            column-count: 2;
+            column-gap: 100px;
+            
+     }
+     &__item{
             padding-bottom: 21px;
-             .social{
-                display: flex;
-                gap: 15px;
-             }
-                a{
+          }
+           
+      &__item-link{
                 font-weight: 400;
                 font-size: 16px;
                 line-height: 20px;
                 color: $white;
            
-                }
+             }
 
-           }
-        }
+     &__nav-title{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: $white;
+     }      
+       &__nav-social{
+        padding-top: 42px;
+        display: flex;
+        gap: 15px;
+       }
     
-        .footer__links{
+        &__title{
             margin-top: 103px;
             width: 100%;
             border-top: 1px solid rgba(197, 203, 226, 0.5);
             padding-top: 29px;
             padding-bottom: 38px;
-            .link-wrap{
-                display: flex;
-                justify-content: space-between;
-                p{
-                    font-weight: 400;
-                    font-size: 16px;
-                    line-height: 20px;
-                    color: $white;
-                }
-            }
+        }
+        &__title-wrap{
+            display: flex;
+            justify-content: space-between;
+        }
+        &__title-item{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            text-decoration-line: underline;
+            color: #FFFFFF;
         }
 }

@@ -1,101 +1,68 @@
-.about{
-    position: relative;
-    padding: 175px 0 0px 0;
-    &__wrap{
-        display: flex;
-        justify-content: space-between;
-        gap: 80px;
-    }
-    &__content{
-        align-self: center;
-        max-width: 570px;
-    }
-   
- &__title{
-        color: $primaryDark;
-        font-weight: 700;
-        font-size: 48px;
-        line-height: 62px;
-        }
-        &__subtitle{
-            font-weight: 400;
-            font-size: 22px;
-            line-height: 33px;
-            color: $color-txt;
-            width: 390px;
-            padding-top: 32px;
-            padding-bottom:40px ;
-        }
-    &__btn{
-        display: flex;
-        gap: 20px;
-    }
-    &__img{
-        img{
-        
-        
-        }
-    }
-}
 
-.sec-2{
-   .sec-2__expierence{
+.about-main {
+  padding: 250px 0 150px 0 ;
+  background-image: url(../img/about-page/about-img.png), linear-gradient(252.91deg, #E3E7F6 3.68%, rgba(227, 231, 246, 0) 97.82%);
+  background-position: right 10% top 118%;
+  background-repeat: no-repeat;
+ 
+
+  &__text-content {
+      width: 467px;
+  }
+  &__subtitle{
+      width: 444px;
+     
+  }
+
+}
+  .expierence{
         padding-top: 150px;
         padding-bottom: 45px;
         display: flex;
         flex-wrap: wrap;
         gap: 32px;
-
-        .blocks{
-            position: relative;
-            background: #FFFFFF;
-            box-shadow: 0px 0px 8px rgba(22, 23, 72, 0.07), 0px 25px 35px rgba(22, 23, 72, 0.05);
-            border-radius: 8px;
-            width: 316px;
-            height: 318px;
-            padding-top: 53px;
-            padding-bottom: 0;
-            h2{
-                font-weight: 700;
-                font-size: 56px;
-                line-height: 62px;
-                padding-bottom: 18px;
-                color: $primaryDark;
-            }
-            p{
-                font-weight: 400;
-                font-size: 22px;
-                line-height: 33px;
-                color: $color-txt;
-                text-align: center;
-            }
-            img{
-                position: absolute;
-                bottom: 0;
-                width: 100%; 
-             
-            }
-        }
+  
+    &__block{
+      position: relative;
+      background: #FFFFFF;
+      box-shadow: 0px 0px 8px rgba(22, 23, 72, 0.07), 0px 25px 35px rgba(22, 23, 72, 0.05);
+      border-radius: 8px;
+      width: 316px;
+      height: 318px;
+      padding-top: 53px;
+      padding-bottom: 0;
+      &--title{
+        text-align: center;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 62px;
+        padding-bottom: 18px;
+        color: $primaryDark;
     }
-}
+    &--subtitle{
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        color: $color-txt;
+        text-align: center;
+    }
+  
+      img{
+          position: absolute;
+          bottom: 0;
+          width: 100%; 
+       
+      }
+    }
+     
+  }
+
 .culture{
+  
     background: linear-gradient(268.52deg, #E3E7F6 -52.27%, rgba(227, 231, 246, 0) 138.23%); 
      &__txt{
         padding-top: 65px;
         text-align: center;
-        h2{
-            font-weight: 700;
-            font-size: 44px;
-            line-height: 62px;
-            color: $primaryDark;
-            padding-bottom: 16px;
-        }
-        p{
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 27px;
-            color: $color-txt;
-        }
      }
      &__wrap{
         padding-top: 97px;
@@ -109,100 +76,75 @@
     box-shadow: 0px 0px 8px rgba(22, 23, 72, 0.07), 0px 25px 35px rgba(22, 23, 72, 0.05);
     border-radius: 8px;
 
-    h3{
-        font-size: 28px;
-        line-height: 31px;
-        color: #3A3A3C;
-        padding-bottom: 32px;
+    &--wh-1{
+      width: 345px;
+      height: 278px;
     }
-    p{
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 27px;
-        color: $color-txt;
+    
+    &--wh-2{
+      width: 345px;
+      height: 251px;
     }
+    &--wh-3{
+      width: 345px;
+      height: 273px;
+   }
   }
+  &__blocks-title{
+    font-size: 28px;
+    line-height: 31px;
+    color: #3A3A3C;
+    padding-bottom: 32px;
+}
+&__blocks-subtitle{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: $color-txt;
+}
   &__about{
     padding-top: 97px;
-    padding-bottom: 108px;
-    display: flex;
-    gap: 57px;
+    padding-bottom: 235px;
+    background-image: url(../img/about-page/we-are.png);
+    background-position: right top 97px;
+    background-repeat: no-repeat;
+    background-size: 541px;
   }
   &__about-txt{
+    width: 397px;
+  }
+
+
+  &__about-txt{
     align-self: center;
-    h2{
-        font-weight: 700;
-        font-size: 44px;
-        line-height: 57px;
-        color: $primaryDark;
-        padding-bottom: 16px;
-    }
-    p{
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 27px;
-        color: $color-txt;
-        padding-bottom: 30px;
-     &:last-child{
-        padding-bottom: 0;
-     }
-    }
+
   }
 }
 
 .deal{
-    margin: 121px 0;
+  background-image: url(../img/about-page/deal.png);
+    background-position: left 10% center ;
+    background-repeat: no-repeat;
+    padding: 255px 0 255px 0;
 
-  &__line{
+  &__txt{
+    margin-left: 55%;
+    }
   
-    display: flex;
-    gap: 60px;
-  }
-  &__about-txt{
-    align-self: center;
-    h2{
-        font-weight: 700;
-        font-size: 44px;
-        line-height: 57px;
-        color: $primaryDark;
-        padding-bottom: 16px;
-    }
-    p{
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 27px;
-        color: $color-txt;
-        padding-bottom: 30px;
-     &:last-child{
-        padding-bottom: 0;
-     }
-    }
-  }
 }
+
 .hiring{
-    background: linear-gradient(268.52deg, #E3E7F6 -52.27%, rgba(227, 231, 246, 0) 138.23%);
+    background: url(../img/about-page/hiring.png), linear-gradient(268.52deg, #E3E7F6 -52.27%, rgba(227, 231, 246, 0) 138.23%);
     padding: 150px;
+    background-repeat: no-repeat;
+    background-position: right 20% center;
   &__wrap{
-    display: flex;
-    gap: 130px;
+    
   }
   &__txt{
-    align-self: center;
-    h2{
-        font-weight: 700;
-        font-size: 44px;
-        line-height: 57px;
-        color: $primaryDark;
-        padding-bottom: 16px;
-    }
-    p{
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 27px;
-        color: $color-txt;
-        padding-bottom: 40px;
    
-    }
+    width: 334px;
+
   }
   &__btn{
     position: relative;

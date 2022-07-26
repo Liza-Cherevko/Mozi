@@ -1,92 +1,40 @@
-.connect{
-  
-    padding: 128px 0 0px 0;
-    &__wrap{
-        display: flex;
-        justify-content: space-between;
-        gap: 80px;
-    }
-    &__content{
-        align-self: center;
-        max-width: 570px;
-    }
+.contact {
+    padding: 200px 0 150px 0 ;
+    background-image: url(../img/contact/contact-img.png), linear-gradient(252.91deg, #E3E7F6 3.68%, rgba(227, 231, 246, 0) 97.82%);
+    background-position: right 10% bottom ;
+    background-repeat: no-repeat;
    
- &__title{
-        color: $primaryDark;
-        font-weight: 700;
-        font-size: 48px;
-        line-height: 62px;
-        }
-        &__subtitle{
-            font-weight: 400;
-            font-size: 22px;
-            line-height: 33px;
-            color: $color-txt;
-            width: 390px;
-            padding-top: 32px;
-            padding-bottom:40px ;
-        }
+    &__text{
+        width: 502px;
+    }
+ 
     &__btn{
-        display: flex;
-        gap: 20px;
-    }
-    &__img{
-        img{
+        margin-top: 40px;
+        width: 158px;
         
-        
-        }
     }
-}
+  
+  
+  }
 
-.form{
+.form-block{
     padding: 102px 0 166px 0;
     &__wrap{
         display: flex;
         gap: 122px;
     }
-    &__block{
-        background: #FFFFFF;
-        box-shadow: 0px 0px 8px rgba(22, 23, 72, 0.07), 0px 25px 35px rgba(22, 23, 72, 0.05);
-        border-radius: 8px;
-        width: 539px;
-        padding: 52px 48px 55px 48px;
-.ipb{
-    label{
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 150%;
-        color: #8F90A6;
-        padding-bottom: 6px;
-    }
-    input{
-        background: #FFFFFF;
-        border: 1px solid #E3E7F6;
-        border-radius: 6px;
-        width: 443px;
-        height: 60px;
-        margin-bottom: 30px;
-       
-    }
-    textarea{
-        background: #FFFFFF;
-        border: 1px solid #E3E7F6;
-        border-radius: 6px;
-        width: 443px;
-        height: 148px;
-        margin-bottom: 30px;
-    }
-}
-      
-    }
+  
 
     &__country{
         display: flex;
         flex-direction: column;
         gap: 72px;
         align-self: flex-end;
-        .country-block{
+    }
+     &__country-item{
             width: 253px;
-            .title{
+     }
+    &__country-title{
                 display: flex;
                 gap: 20px;
                 padding-bottom: 25px;
@@ -98,13 +46,47 @@
                    
                 }
             }
-            p{
+     &__country-txt{
                 font-weight: 400;
                 font-size: 16px;
                 line-height: 150%;
-                color: #000;
-               
+                color: #000;   
             }
         }
-    }
+    
+
+
+.form{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(22, 23, 72, 0.07), 0px 25px 35px rgba(22, 23, 72, 0.05);
+    border-radius: 8px;
+    width: 539px;
+    padding: 52px 48px 55px 48px;
+&__ipb{
+        label{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            color: #8F90A6;
+            padding-bottom: 6px;
+        }
+        input{
+            background: #FFFFFF;
+            border: 1px solid #E3E7F6;
+            border-radius: 6px;
+            width: 443px;
+            height: 60px;
+            margin-bottom: 30px;
+        
+        }
+        textarea{
+            background: #FFFFFF;
+            border: 1px solid #E3E7F6;
+            border-radius: 6px;
+            width: 443px;
+            height: 148px;
+            margin-bottom: 30px;
+        }
+        }
+  
 }

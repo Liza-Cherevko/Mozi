@@ -1,6 +1,6 @@
 // Custom scripts
 
-// Мобильное меню бургер
+Мобильное меню бургер
 function burgerMenu() {
     const burger = document.querySelector('.burger')
     const menu = document.querySelector('.menu')
@@ -22,7 +22,7 @@ function burgerMenu() {
     })
     // Вот тут мы ставим брейкпоинт навбара
     window.addEventListener('resize', () => {
-      if (window.innerWidth > 768.98) {
+      if (window.innerWidth > 479.98) {
         menu.classList.remove('active')
         burger.classList.remove('active-burger')
         body.classList.remove('locked')
@@ -37,39 +37,9 @@ function burgerMenu() {
 var swiper = new Swiper('.mySwiper', {
   observer: true,
   observeParents: true,
-  slidesPerView:3,
+  slidesPerView:1,
   spaceBetween:60,
-  slidesPerGroup: 3,
-  navigation: {
-        nextEl: ".swiper-next",
-        prevEl: ".swiper-prev",
-      },
-       
-        breakpoints: {
-          768: {
-            slidesPerView:3,
-            spaceBetween:24.8,
-            
-          },
-          1000: {
-            slidesPerView:3,
-            spaceBetween:30,
-            
-          },        
-          1200: {
-            slidesPerView:3,
-            spaceBetween:55,
-          }
-        
-        }
-});
-
-var swiper = new Swiper('.mySwiper', {
-  observer: true,
-  observeParents: true,
-  slidesPerView:4,
-  spaceBetween: 30,
-  slidesPerGroup: 4,
+  slidesPerGroup: 1,
   navigation: {
         nextEl: ".swiper-next",
         prevEl: ".swiper-prev",
@@ -93,3 +63,33 @@ var swiper = new Swiper('.mySwiper', {
         
         // }
 });
+
+// var swiper = new Swiper('.mySwiper', {
+//   observer: true,
+//   observeParents: true,
+//   slidesPerView:4,
+//   spaceBetween: 30,
+//   slidesPerGroup: 4,
+//   navigation: {
+//         nextEl: ".swiper-next",
+//         prevEl: ".swiper-prev",
+//       },
+       
+//         breakpoints: {
+//           768: {
+//             slidesPerView:3,
+//             spaceBetween:24.8,
+            
+//           },
+//           1000: {
+//             slidesPerView:3,
+//             spaceBetween:30,
+            
+//           },        
+//           1200: {
+//             slidesPerView:3,
+//             spaceBetween:55,
+//           }
+        
+//         }
+// });

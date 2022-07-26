@@ -1,0 +1,349 @@
+// 992px - 1199px
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .about-main {
+        padding: 200px 0 150px 0 ;
+        background-image: url(../img/about-page/about-img.png), linear-gradient(252.91deg, #E3E7F6 3.68%, rgba(227, 231, 246, 0) 97.82%);
+        background-position: right 5% bottom;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+       
+      &__text-content{
+        text-align: center;
+        margin: auto;
+        background: rgba(197, 203, 226, 0.5);
+      }
+      &__subtitle{
+        color: $black;
+      }
+   
+      
+      }
+        .expierence{
+              padding-top: 100px;
+              padding-bottom: 35px;
+              display: flex;
+              flex-wrap: wrap;
+              gap: 32px;
+              justify-content: center;
+          }
+           
+        
+      
+      .culture{
+        
+          background: linear-gradient(268.52deg, #E3E7F6 -52.27%, rgba(227, 231, 246, 0) 138.23%); 
+           &__txt{
+              padding-top: 65px;
+              text-align: center;
+           }
+           &__wrap{
+              padding-top: 50px;
+              display: flex;
+              flex-wrap: wrap;
+              gap: 37px;
+              justify-content: center;
+           }
+      
+        &__about{
+          padding-top: 97px;
+          padding-bottom: 235px;
+          display: flex;
+          gap: 57px;
+          background-image: url(../img/about-page/we-are.png);
+          background-position: right top 97px;
+          background-repeat: no-repeat;
+        }
+        &__about-txt{
+          width: 397px;
+        }
+      
+      
+        &__about-txt{
+          align-self: center;
+          h2{
+              font-weight: 700;
+              font-size: 44px;
+              line-height: 57px;
+              color: $primaryDark;
+              padding-bottom: 16px;
+          }
+          p{
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 27px;
+              color: $color-txt;
+              padding-bottom: 30px;
+           &:last-child{
+              padding-bottom: 0;
+           }
+          }
+        }
+      }
+      
+      .deal{
+        background-image: url(../img/about-page/deal.png);
+          background-position: left 10% center ;
+          background-repeat: no-repeat;
+          padding: 255px 0 255px 0;
+      
+        &__txt{
+          margin-left: 55%;
+          }
+        
+      }
+      
+      .hiring{
+          background: url(../img/about-page/hiring.png), linear-gradient(268.52deg, #E3E7F6 -52.27%, rgba(227, 231, 246, 0) 138.23%);
+          padding: 150px;
+          background-repeat: no-repeat;
+          background-position: right 20% center;
+        &__wrap{
+          display: flex;
+          gap: 130px;
+        }
+        &__txt{
+          align-self: center;
+          width: 334px;
+      
+        }
+        &__btn{
+          position: relative;
+            img{
+              position: absolute;
+              top: 56px;
+              right: 53px;
+      
+            }
+        }
+      }
+}
+    // 768px - 991px
+    @media (min-width: 768px) and (max-width: 991px) {
+        .about-main {
+            padding: 200px 0 150px 0 ;
+            background-image: url(../img/about-page/about-img.png), linear-gradient(252.91deg, #E3E7F6 3.68%, rgba(227, 231, 246, 0) 97.82%);
+            background-position: right 5% bottom;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+           
+          &__text-content{
+            text-align: center;
+            margin: auto;
+            background: rgba(197, 203, 226, 0.5);
+          }
+          &__subtitle{
+            color: $black;
+          }
+       
+          
+          }
+            .expierence{
+                  padding-top: 100px;
+                  padding-bottom: 35px;
+                  display: flex;
+                  flex-wrap: wrap;
+                  gap: 32px;
+                  justify-content: center;
+              }
+               
+            
+          
+          .culture{
+            
+            &__wrap {
+                padding-top: 50px;
+                gap: 17px;
+                justify-content: center;
+            }
+            &__about{
+              padding-top: 97px;
+              padding-bottom: 50px;
+              display: flex;
+              gap: 57px;
+              background-image: url(../img/about-page/we-are.png);
+              background-position: right top 97px;
+              background-repeat: no-repeat;
+              background-size: 440px;
+            }
+            &__about-txt{
+              width: 270px;
+            }
+          
+          
+            &__about-txt{
+              align-self: center;
+            
+              }
+            }
+          
+          
+          .deal{
+            background-image: url(../img/about-page/deal.png);
+              background-position: left 10% center ;
+              background-repeat: no-repeat;
+              padding: 255px 0 255px 0;
+              background-size: 440px;
+          
+            &__txt{
+              margin-left: 60%;
+              }
+            
+          }
+          
+          .hiring{
+              background: url(../img/about-page/hiring.png), linear-gradient(268.52deg, #E3E7F6 -52.27%, rgba(227, 231, 246, 0) 138.23%);
+              padding: 150px;
+              background-repeat: no-repeat;
+              background-position: right 20% center;
+            &__wrap{
+           
+            }
+            &__txt{
+             text-align: center;
+              background: rgba(197, 203, 226, 0.5);
+              width: 350px;
+            }
+            &__subtitle{
+                color: $black;
+            }
+            &__btn{
+              position: relative;
+                img{
+                  position: absolute;
+                  top: 56px;
+                  right: 53px;
+          
+                }
+            }
+          } 
+          .content-txt{
+            &__title{
+              font-weight: 700;
+              font-size: 44px;
+              line-height: 57px;
+              color: $primaryDark;
+              padding-bottom: 16px;
+            }
+            &__subtitle{
+                font-weight: 200;
+                font-size: 14px;
+                line-height: 23px;
+            }
+          } 
+    }
+    
+    @media (min-width: 576px) and (max-width: 767px) {
+        .about-main {
+            padding: 200px 0 150px 0 ;
+            background-image: url(../img/about-page/about-img.png), linear-gradient(252.91deg, #E3E7F6 3.68%, rgba(227, 231, 246, 0) 97.82%);
+            background-position: right 5% bottom;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+           
+          &__text-content{
+            text-align: center;
+            margin: auto;
+            background: rgba(197, 203, 226, 0.5);
+          }
+          &__subtitle{
+            color: $black;
+          }
+       
+          
+          }
+            .expierence{
+                  padding-top: 100px;
+                  padding-bottom: 35px;
+                  display: flex;
+                  flex-wrap: wrap;
+                  gap: 32px;
+                  justify-content: center;
+              }
+               
+            
+          
+          .culture{
+            
+            &__wrap {
+                padding-top: 50px;
+                gap: 17px;
+                justify-content: center;
+            }
+            &__about{
+              padding-top: 97px;
+              padding-bottom: 50px;
+              display: flex;
+              gap: 57px;
+              background-image: url(../img/about-page/we-are.png);
+              background-position: right top 97px;
+              background-repeat: no-repeat;
+              background-size: 440px;
+            }
+            &__about-txt{
+              width: 270px;
+            }
+          
+          
+            &__about-txt{
+              align-self: center;
+            
+              }
+            }
+          
+          
+          .deal{
+            background-image: url(../img/about-page/deal.png);
+              background-position: left 10% center ;
+              background-repeat: no-repeat;
+              padding: 255px 0 255px 0;
+              background-size: 440px;
+          
+            &__txt{
+              margin-left: 60%;
+              }
+            
+          }
+          
+          .hiring{
+              background: url(../img/about-page/hiring.png), linear-gradient(268.52deg, #E3E7F6 -52.27%, rgba(227, 231, 246, 0) 138.23%);
+              padding: 150px;
+              background-repeat: no-repeat;
+              background-position: right 20% center;
+            &__wrap{
+           
+            }
+            &__txt{
+             text-align: center;
+              background: rgba(197, 203, 226, 0.5);
+              width: 350px;
+            }
+            &__subtitle{
+                color: $black;
+            }
+            &__btn{
+              position: relative;
+                img{
+                  position: absolute;
+                  top: 56px;
+                  right: 53px;
+          
+                }
+            }
+          } 
+          .content-txt{
+            &__title{
+              font-weight: 700;
+              font-size: 44px;
+              line-height: 57px;
+              color: $primaryDark;
+              padding-bottom: 16px;
+            }
+            &__subtitle{
+                font-weight: 200;
+                font-size: 14px;
+                line-height: 23px;
+            }
+          } 
+    }
+    

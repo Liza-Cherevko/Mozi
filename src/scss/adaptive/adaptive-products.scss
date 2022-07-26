@@ -1,0 +1,269 @@
+// 992px - 1199px
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .product-main {
+        padding: 200px 0 150px 0 ;
+        background-image: url(../img/products-page/product-main.png), linear-gradient(252.91deg, #E3E7F6 3.68%, rgba(227, 231, 246, 0) 97.82%);
+        background-position: right 5% bottom;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+       
+
+        &__text-content {
+            text-align: center;
+            background: rgba(233, 233, 233, 0.5);
+            margin: 0 auto;
+            width: 500px;
+        }
+        &__subtitle{
+            text-align: center;
+            width: 500px;
+            color: #000;
+        }
+    
+    }
+
+
+    }
+    
+    // 768px - 991px
+    @media (min-width: 768px) and (max-width: 991px) {
+        .product-main {
+            padding: 200px 0 150px 0 ;
+            background-image: url(../img/products-page/product-main.png), linear-gradient(252.91deg, #E3E7F6 3.68%, rgba(227, 231, 246, 0) 97.82%);
+            background-position: right 20% bottom;
+            background-repeat: no-repeat;
+           
+        
+            &__text-content {
+                background: rgba(197, 203, 226, 0.5);
+                margin: 0 auto;
+                width: 500px;;
+                text-align: center;
+            }
+            &__subtitle{
+                color: $black;
+               
+            }
+        
+        }
+    
+        
+        .cookies{
+            background: linear-gradient(268.52deg, #E3E7F6 -52.27%, rgba(227, 231, 246, 0) 138.23%);
+            margin-top: 101px;
+     
+        &__wrap{
+            display: flex;
+            flex-direction: column;
+            gap: 0px;
+          
+         } 
+        
+        &__blocks{
+            background-image: url(../img/products-page/cookies-img.png);
+            background-position: right center;
+            background-repeat: no-repeat;
+            background-size: 350px;
+        }
+        &__blocks--second{
+            background-image: url(../img/products-page/cookies-2-img.png);
+            background-position: left center;
+             background-repeat: no-repeat;
+        }
+        &__img-title{
+            padding-bottom: 25px;
+        }
+        &__content--second{
+        margin-left: auto;
+        width: 416px;
+        align-self: center;
+        }
+        &__content{
+            width: 368px;
+            padding-top: 97px;
+            height: 574px;
+        }
+        &__content-txt{
+            padding-top: 20px;
+            font-weight: 200;
+            font-size: 14px;
+            line-height: 25px;
+            color: $color-txt;
+        }
+        
+        &__btn{
+            margin-top: 50px;
+        }
+
+        .build{
+            margin-top: 52px;
+            padding: 137px 0;
+            background: linear-gradient(342.12deg, #E3E7F6 -6.53%, rgba(227, 231, 246, 0) 87.81%);
+            
+            &__content{
+                text-align: center;
+                width: 776px;
+               margin: auto;
+            }
+            &__button{
+               
+                padding-top: 40px;
+                display: flex;
+                justify-content: center;
+                gap: 30px ;
+            }
+        }
+    
+  
+      .container {
+        width: 750px !important;
+      }
+    
+      body,
+      section,
+      footer {
+        width: 100% !important;
+        overflow-x: hidden;
+      }
+    }
+}
+    @media (min-width: 576px) and (max-width: 767px) {
+        .header {
+            background: linear-gradient(252.91deg, #E3E7F6 3.68%, rgba(227, 231, 246, 0) 97.82%);
+            &__menu{
+                display: flex;
+                justify-content: space-between;
+             }
+             &__logo{
+               img{
+                width: 165px;
+                height: 38px;
+          
+               }
+             }
+        
+             &__navbar {
+              display: none;
+              }
+              
+             
+        }
+        .product-main {
+            padding: 200px 0 150px 0 ;
+            background-image: url(../img/products-page/product-main.png), linear-gradient(252.91deg, #E3E7F6 3.68%, rgba(227, 231, 246, 0) 97.82%);
+            background-position: right 20% bottom;
+            background-repeat: no-repeat;
+           
+        
+            &__text-content {
+                background: rgba(197, 203, 226, 0.5);
+                margin: 0 auto;
+                width: 500px;;
+                text-align: center;
+            }
+            &__subtitle{
+                color: $black;
+               
+            }
+        
+        }
+    
+        
+        .cookies{
+            background: linear-gradient(268.52deg, #E3E7F6 -52.27%, rgba(227, 231, 246, 0) 138.23%);
+            margin-top: 101px;
+     
+        &__wrap{
+            display: flex;
+            flex-direction: column;
+            gap: 0px;
+          
+         } 
+        
+        &__blocks{
+            background-image: url(../img/products-page/cookies-img.png);
+            background-position: right center;
+            background-repeat: no-repeat;
+            background-size: 350px;
+        }
+        &__blocks--second{
+            background-image: url(../img/products-page/cookies-2-img.png);
+            background-position: left center;
+             background-repeat: no-repeat;
+        }
+        &__img-title{
+            padding-bottom: 25px;
+        }
+        &__content--second{
+        margin-left: auto;
+        width: 416px;
+        align-self: center;
+        }
+        &__content{
+            width: 368px;
+            padding-top: 97px;
+            height: 574px;
+        }
+        &__content-txt{
+            padding-top: 20px;
+            font-weight: 200;
+            font-size: 14px;
+            line-height: 25px;
+            color: $color-txt;
+        }
+        
+        &__btn{
+            margin-top: 50px;
+        }
+
+        .build{
+            margin-top: 52px;
+            padding: 137px 0;
+            background: linear-gradient(342.12deg, #E3E7F6 -6.53%, rgba(227, 231, 246, 0) 87.81%);
+            
+            &__content{
+                text-align: center;
+                width: 776px;
+               margin: auto;
+            }
+            &__button{
+               
+                padding-top: 40px;
+                display: flex;
+                justify-content: center;
+                gap: 30px ;
+            }
+        }
+    
+  
+      .container {
+        width: 750px !important;
+      }
+    
+      body,
+      section,
+      footer {
+        width: 100% !important;
+        overflow-x: hidden;
+      }
+    }
+        .build{
+            margin-top: 52px;
+            padding: 137px 0;
+            background: linear-gradient(342.12deg, #E3E7F6 -6.53%, rgba(227, 231, 246, 0) 87.81%);
+            
+            &__content{
+                text-align: center;
+                width: 776px;
+               margin: auto;
+            }
+            &__button{
+               
+                padding-top: 40px;
+                display: flex;
+                justify-content: center;
+                gap: 30px ;
+            }
+        }
+    }
