@@ -300,6 +300,33 @@ body.locked {
   line-height: 22px;
 }
 
+.menu-side {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 30%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+  transition: 0.5s;
+  transform: translateX(-100%);
+  display: none;
+}
+
+.sidebar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50%;
+  flex-direction: column;
+}
+
+.menu-side_active {
+  transform: translateX(0%);
+}
+
 .sec-1 {
   padding: 250px 0 250px 0;
   background-image: url(../img/firs-screen-img.png), linear-gradient(252.91deg, #E3E7F6 3.68%, rgba(227, 231, 246, 0) 97.82%);
@@ -333,6 +360,9 @@ body.locked {
 }
 .sec-2__wrap {
   margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .sec-3 {
@@ -1236,17 +1266,15 @@ footer {
     display: flex;
   }
   .menu__item {
-    margin-left: 60px;
+    margin-left: 40px;
   }
   .menu__item:last-child {
     color: white;
   }
   .menu__item-link {
-    font-size: 15px;
-    line-height: 22px;
-  }
-  .menu__hiring-btn {
-    font-size: 15px;
+    color: #646A89;
+    font-weight: 400;
+    font-size: 16px;
     line-height: 22px;
   }
 
@@ -1255,7 +1283,7 @@ footer {
   }
 
   .main-content__title {
-    font-weight: 400;
+    font-weight: 700;
     font-size: 32px;
     line-height: 50px;
     color: #1A2578;
@@ -1272,7 +1300,7 @@ footer {
   }
 
   .content-txt__title {
-    font-weight: 700;
+    font-weight: 400;
     font-size: 28px;
     line-height: 30px;
   }
@@ -1317,6 +1345,7 @@ footer {
     color: #BF0830;
   }
   .sec-2__wrap {
+    display: block;
     text-align: center;
     -webkit-column-count: 2;
   }
@@ -1491,6 +1520,36 @@ footer {
     display: none;
   }
 
+  .main-content__title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #1A2578;
+    padding-bottom: 22px;
+  }
+  .main-content__title--red {
+    color: #BF0830;
+  }
+  .main-content__subtitle {
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 20px;
+    color: #646A89;
+  }
+
+  .content-txt__title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .content-txt__subtitle {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 17px;
+    color: #646A89;
+    padding-bottom: 20px;
+  }
+
   .menu {
     display: flex;
   }
@@ -1511,36 +1570,6 @@ footer {
 
   .btn {
     padding: 10px 15px;
-  }
-
-  .main-content__title {
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 50px;
-    color: #1A2578;
-    padding-bottom: 22px;
-  }
-  .main-content__title--red {
-    color: #BF0830;
-  }
-  .main-content__subtitle {
-    font-weight: 200;
-    font-size: 18px;
-    line-height: 20px;
-    color: #646A89;
-  }
-
-  .content-txt__title {
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 30px;
-  }
-  .content-txt__subtitle {
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 27px;
-    color: #646A89;
-    padding-bottom: 20px;
   }
 
   .sec-1 {
@@ -1576,6 +1605,7 @@ footer {
     color: #BF0830;
   }
   .sec-2__wrap {
+    display: block;
     text-align: center;
     -webkit-column-count: 2;
   }
@@ -1648,7 +1678,6 @@ footer {
   }
   .sec-4__content {
     margin: auto;
-    background: rgba(197, 203, 226, 0.5);
     text-align: center;
     width: 100%;
   }
@@ -1680,7 +1709,7 @@ footer {
   .sec-6 {
     background-size: 100% 100%;
     margin-top: 108px;
-    padding: 256px 0 260px 0;
+    padding: 50px;
     background-image: linear-gradient(268.52deg, #E3E7F6 -52.27%, rgba(227, 231, 246, 0) 138.23%);
     background-position: right 20% center;
     background-repeat: no-repeat;
@@ -1688,32 +1717,74 @@ footer {
   .sec-6__content {
     width: 100%;
     align-self: center;
-    background: rgba(197, 203, 226, 0.5);
     text-align: center;
-  }
-  .sec-6 .content-txt__title {
-    font-weight: 200;
-    font-size: 20px;
-    line-height: 30px;
-    color: #000;
-  }
-  .sec-6 .content-txt__subtitle {
-    font-weight: 150;
-    font-size: 14px;
-    line-height: 20px;
-    color: #000;
-    padding-bottom: 20px;
   }
 
   .footer {
     background: #0D123C;
   }
   .footer__wrap {
-    justify-content: space-between;
+    justify-content: center;
+    gap: 50px;
   }
   .footer__left {
     flex-direction: column;
     align-items: flex-start;
+  }
+  .footer__under-txt {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 27px;
+    color: white;
+    width: 200px;
+    padding-top: 19px;
+  }
+  .footer__right {
+    display: flex;
+    gap: 50px;
+  }
+  .footer__list {
+    -webkit-column-count: 2;
+    column-count: 2;
+    column-gap: 50px;
+  }
+  .footer__item {
+    padding-bottom: 15px;
+  }
+  .footer__item-link {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+  }
+  .footer__nav-title {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+  }
+  .footer__nav-social {
+    padding-top: 42px;
+    display: flex;
+    gap: 15px;
+  }
+  .footer__title {
+    margin-top: 103px;
+    width: 100%;
+    border-top: 1px solid rgba(197, 203, 226, 0.5);
+    padding-top: 29px;
+    padding-bottom: 38px;
+  }
+  .footer__title-wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer__title-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -2223,17 +2294,34 @@ footer {
     right: 53px;
   }
 
-  .content-txt__title {
-    font-weight: 700;
-    font-size: 44px;
-    line-height: 57px;
+  .main-content__title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
     color: #1A2578;
-    padding-bottom: 16px;
+    padding-bottom: 22px;
+  }
+  .main-content__title--red {
+    color: #BF0830;
+  }
+  .main-content__subtitle {
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 20px;
+    color: #646A89;
+  }
+
+  .content-txt__title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 30px;
   }
   .content-txt__subtitle {
-    font-weight: 200;
-    font-size: 14px;
-    line-height: 23px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 17px;
+    color: #646A89;
+    padding-bottom: 20px;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {

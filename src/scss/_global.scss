@@ -130,7 +130,7 @@ body {
     cursor: pointer ;
   }
   
-  // Burger menu styles
+
   @media (max-width: 767px){
   
     .menu {
@@ -168,6 +168,9 @@ body {
       cursor: pointer;
   
       &.active-burger {
+        // .menu-side{
+        //   display: block;
+        // }
         &:before {
           background: $white;
           transform: rotate(45deg);
@@ -233,4 +236,6 @@ body {
             background: none;
            }
     }
+
+  
   }

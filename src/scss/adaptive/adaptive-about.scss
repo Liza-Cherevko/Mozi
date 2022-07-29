@@ -331,19 +331,39 @@
                 }
             }
           } 
+          .main-content{
+            &__title {
+              font-weight: 400;
+              font-size: 18px;
+              line-height: 30px;
+              color: $primaryDark;
+              padding-bottom: 22px;
+              &--red{
+              
+                color:$secondary;
+              }
+          }
+          &__subtitle {
+              font-weight: 200;
+              font-size: 18px;
+              line-height: 20px;
+              color: $primary;
+             
+          }
+          }
           .content-txt{
             &__title{
-              font-weight: 700;
-              font-size: 44px;
-              line-height: 57px;
-              color: $primaryDark;
-              padding-bottom: 16px;
+              font-weight: 600;
+              font-size: 28px;
+              line-height: 30px;
             }
             &__subtitle{
-                font-weight: 200;
-                font-size: 14px;
-                line-height: 23px;
+              font-weight: 300;
+              font-size: 18px;
+              line-height: 17px;
+              color: $primary;
+              padding-bottom: 20px;
             }
-          } 
+          }
     }
     
